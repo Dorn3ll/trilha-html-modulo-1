@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso basico de html-módulo 1</title>
+  </head>
+  <body>
 
+    <main>
+      <h1 id="inicio">Módulo 1- Primeiros passos com html</h1>
+      <hr>
+        <p style="font-family: 'Courier New', Courier, monospace;">Bem-vindo ao módulo 1 do curso de HTML! Neste módulo, você aprenderá os conceitos básicos de HTML, incluindo a estrutura de um documento HTML, tags essenciais e como criar seu primeiro site.</p>
+        <hr>
+
+        <h2>indice</h2>
+        <ul>
+          <li><a href="#introducao">Introdução ao HTML</a></li>
+          <li><a href="#estrutura">Estrutura de um Documento HTML</a></li>
+          <li><a href="#tags">Tags Essenciais</a></li>
+          <li><a href="#exemplo">Exemplo Prático</a></li>
+          <li><a href="#semantica"></a></li>
+          <li><a href="#conclusao">Conclusão</a></li>
+            <li><a href="#recursos">Recursos Adicionais</a></li>
+        </ul>
+
+        <hr>
+        <h2>Objetivos do Módulo</h2>
+        <ul>
+          <li>Compreender o que é HTML e sua importância no desenvolvimento web.</li>
+          <li>Aprender a estrutura básica de um documento HTML.</li>
+          <li>Familiarizar-se com as tags HTML essenciais.</li>
+          <li>Praticar a criação de um documento HTML simples.</li>
+          <li>Entender a importância da semântica HTML.</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="introducao">Introdução ao HTML</h2>
+        <small><a href="#inicio">indice</a></small>
+        <p>Html <i>(HyperText Markup Language)</i> é a linguagem de marcação padrão usada para criar paginas da web. Ele é usado para estruturar toda a pagina da web, definindo elementos como títulos, parágrafos, links, imagens e muito mais.</p>
+        <hr>
+
+        <h3 id="estrutura">Estrutura de um Documento HTML</h2>
+        <a href="#inicio">indice</a></small>
+        <p>Um documento HTML básico tem os seguintes elementos</p>
+        <br>
+        <ol>
+            <li>&lt;Head&gt;: Onde contém os meta dados, informções sobre o <strong>HTML</strong></li>
+            <li>&lt;Body&gt;: Onde contém o conteudo visivel da pagina</li>
+            <li>&lt;Header&gt;: Seria o container introdutório ou de navegação</li>
+            <li>&lt;Main&gt;: Seria o conteudo principal da pagina</li>
+            <li>&lt;Footer&gt;: Seria o rodapé da pagina</li>
+        </ol>
+        <hr>
+        
+        <h2 id="tags">Tags Essenciais</h2>
+        <small><a href="#inicio">indice</a></small>
+
+        <p>As <mark>tags</mark> HTML são os blocos de construção de um documento HTML. Elas definem a estrutura e o conteúdo da página. Aqui estão algumas das tags mais  <em>essenciais</em> que você deve
+        <ul>
+            <li>&lt;h1&gt; a &lt;h6&gt;: Títulos de diferentes níveis</li>
+            <li>&lt;p&gt;: Parágrafos</li>
+            <li>&lt;a&gt;: Links</li>
+            <li>&lt;img&gt;: Imagens</li>
+            <li>&lt;div&gt;: Divisões ou seções genéricas</li>
+            <li>&lt;span&gt;: Agrupamento inline de texto</li>
+            <li>&lt;ul&gt; ou &lt;ol&gt;:Listas ordenadas e não ordenadas</li>
+            <li>&lt;blockquote&gt;: Citações em bloco</li>
+            <li>&lt;strong&gt;: Texto em negrito</li>
+            <li>&lt;sub&gt;: Texto sublinhado</li>
+            <li>&lt;sup&gt; Texto sobrescrito</li>
+            <li>&lt;del&gt;: Texto riscado</li>
+            <li>&lt;abbr&gt;: Abreviações</li>
+            </li>
+           
+        </ul>
+        <p>Essas tags são <strong>fundamentais</strong> para a construção de qualquer pagina HTML.</p>
+
+        <hr>
+
+        <h2 id="exemplo"><u>Exemplo</u> Prático</h2>
+        <small><a href="#inicio">indice</a></small>
+        <p>Aqui está um exemplo simples de um documento HTML:</p>
+        <ol>
+            <li>&lt;!DOCTYPE html&gt;</li>
+            <li>&lt;html lang="pt-BR"&gt;</li>
+            <li>&lt;head&gt;</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Meu Primeiro Site&lt;/title&gt;</li>
+            <li>&lt;/head&gt;</li>
+            <li>&lt;body&gt;</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Bem-vindo ao meu site!&lt;/h1&gt;</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Este é o meu primeiro site usando HTML.&lt;/p&gt;</li>
+            <li>&lt;/body&gt;</li>
+            <li>&lt;/html&gt;</li>
+        </ol>
+        <p>Este exemplo mostra a estrutura básica de um documento HTML, incluindo o cabeçalho e o corpo. Você pode copiar e colar esse código em um arquivo com a extensão .html e abri-lo em um navegador para ver como fica.</p>
+
+        
+
+        <hr>
+
+        <h2 id="semantica">Semântica HTML</h2>
+        <small><a href="#inicio">indice</a></small>
+        <p>A semântica HTML refere-se ao uso de tags HTML que têm significado específico e ajudam a descrever o conteúdo da página de forma mais clara.
+        Sendo assim, ajuda os navegadores e os mecanismos de busca a entenderem melhor o conteúdo da página.</p>
+
+        <h3>a seguir exemplos de como as tags semânticas ajudam na compreenssão</h3>
+        <ul>
+            <li>&lt;header&gt;: Usado para definir o cabeçalho da página ou de uma seção.</li>
+            <li>&lt;nav&gt;: Usado para definir a barra de navegação.</li>
+            <li>&lt;article&gt;: Usado para definir um conteúdo independente, como um artigo ou post de blog.</li>
+            <li>&lt;section&gt;: Usado para definir uma seção genérica do documento.</li>
+            <li>&lt;aside&gt;: Usado para definir conteúdo relacionado, mas não essencial, como barras laterais.</li>
+            <li>&lt;footer&gt;: Usado para definir o rodapé da página ou de uma seção.</li>
+        </ul>
+        <p>Essas tags ajudam a organizar o conteúdo de forma mais lógica e acessível, melhorando a experiência do usuário e a indexação pelos mecanismos de busca.</p>
+
+        <h4>
+        Dicas para praticar:
+        <ul>
+            <li>Experimente adicionar mais tags, como imagens e links.</li>
+            <li>Brinque com a formatação usando tags como &lt;strong&gt e &lt;em&gt;.</li>
+            <li>Crie uma lista de itens usando &lt;ul&gt; ou &lt;ol&gt;.</li>
+            <li>Explore a estrutura do documento HTML e veja como as tags se encaixam.</li>
+        </ul>
+        </h4>
+
+        <hr>
+
+        <h2 id="conclusao">Conclusão</h2> 
+        <small><a href="#inicio">indice</a></small>
+        <p>Obrigado por completar o módulo 1 do curso de HTML! Neste módulo, você aprendeu os conceitos básicos de HTML, incluindo a estrutura de um documento HTML, tags essenciais, oque é semântica e como criar seu primeiro site. Esses fundamentos são essenciais para avançar no desenvolvimento web.</p>
+
+        <blockquote>HTML, CSS e JavaScript são as três tecnologias principais que você usará para construir um site.</blockquote>
+
+        <hr>
+        <footer>
+            <h5 id="recursos">Recursos Adicionais</h5>
+           
+            <ul>
+                <li><a href="https://www.w3schools.com/html/">W3Schools - HTML Tutorial</a></li>
+
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Docs - HTML</a></li>
+
+                <li><a href="https://www.dio.me">Dio</a></li>
+            </ul>
+
+        </footer>
+            <p>Esses recursos fornecerão informações adicionais e exercícios práticos para ajudá-lo a aprofundar seus conhecimentos em HTML.</p>
+        </footer>
+    </main>
+  </body>
+</html>
